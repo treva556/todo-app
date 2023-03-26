@@ -1,21 +1,20 @@
 # Todo app react frontend
-https://trevypizza-nior.onrender.com
-
-This is a backend api that displays json data when run and is the data fetched by a front-end app -To view the data click the link then navigate to the routes e.g https://trevypizza-nior.onrender.com/pizzas
+This is a todo app frontend that fetches from an rails api
 ## Tools Used
-Rails 7.0.4.3
-https://rubygems.org/
+react js 18.2.0
+
 ## Pre-Requisites
 In order to use this repo you need to have the following installed:
 
 OS [either: Windows 10+, Linux or MacOS(running on x86 or arm architecture)]
-Rails 7.0.4.3
+React 18.2.0
+
 ### Alternative one
 Open a terminal / command line interface on your computer
 
 Clone the repo by using the following:
 
-git clone https://github.com/treva556/pizza-project Be patient as it creates a copy on your local machine for you.
+git clone https://github.com/treva556/todo-app Be patient as it creates a copy on your local machine for you.
 
 Change directory to the repo folder:
 
@@ -30,18 +29,14 @@ Take on the process in Alternative One above.
 
 Remember to replace your username when cloning.
 
-git clone https://github.com/treva556/pizza-project
+git clone https://github.com/treva556/todo-app
 
 Running the application
-Install required dependencies using bundle
+Install required dependencies using npm 
 
-bundle install
+npm install
 
-then, migrate and seed the data using
-
-rails db:mirate db:seed
-
-finally, run rails s to start up the server
+run frontend app using npm start
 
 ## Author
 Mark Trevor marktreva@gmail.com
